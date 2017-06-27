@@ -29,7 +29,7 @@
 | Virtualmin CLI |                             |
 |:---------------|:----------------------------|
 | List Commands  | `virtualmin help`           |
-| Get Help       | `virtualmin help <command>` |
+| Command Help   | `virtualmin help <command>` |
 
 | Virtualmin Misc     |                                                   |
 |:--------------------|:--------------------------------------------------|
@@ -41,3 +41,18 @@
 |:-------------------|:--------------------------------------|
 | Backup Domain      | `virtualmin backup-domain [options]`  |
 | Restore Domain     | `virtualmin restore-domain [options]` |
+| List Backup Keys   | `virtualmin list-backup-keys`         |
+
+| Virtualmin Domains |                                           |
+|:-------------------|:------------------------------------------|
+| Create Domain      | `virtualmin create-domain [options]`      |
+| Delete Domain      | `virtualmin delete-domain --domain name`  |
+| Disable Domain     | `virtualmin disable-domain --domain name` |
+| Enable Domain      | `virtualmin enable-domain --domain name`  |
+| List Domains       | `virtualmin list-domains`                 |
+
+| Mail and FTP |                                      |
+|:-------------|:-------------------------------------|
+| Create User  | `virtualmin create-user [options]    |
+| Delete User  | `virtualmin delete-user --user name` |
+| List Users   | `virtualmin list-users`              |
